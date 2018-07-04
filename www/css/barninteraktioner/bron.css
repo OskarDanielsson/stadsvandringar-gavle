@@ -1,0 +1,140 @@
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    background-color: rgb(205, 0, 123);
+    background-size: 100% 100%;
+    margin: 0 !important;
+}
+
+.dropzone-wrapper {
+    
+    background-repeat: repeat-x;
+    padding-top: 5px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+.dropzone-row{
+    display: -webkit-flex;
+    -webkit-justify: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dropzone {
+    background-color: darkgray;
+    border: 1px;
+    border-style: solid;
+    
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    
+}
+
+
+
+.dropzone.-drop-possible { }
+
+.dropzone.-drop-over {
+
+} 
+
+.drag-wrapper{
+    position: absolute;
+    bottom: 40px;
+    width:100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dragzone-row{
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.draggable {
+    position: relative;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    -ms-touch-action: none;
+        touch-action: none;
+}
+
+.org-pos-wrapper{
+    position: absolute;
+    bottom: 40px;
+    width:100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.org-pos-row{
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.org-pos {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    background-color: #666;
+    -ms-touch-action: none;
+        touch-action: none;
+}
+
+@media screen and (max-width: 321px){
+
+
+    
+}
+@media screen and (max-height: 541px){
+.dropzone {
+    height: 70px;
+    width: 70px;
+    
+}
+    .draggable {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .org-pos{
+        width: 70px;
+        height: 70px;
+    }
+   /* .dropzone-wrapper {
+        padding-top: 2px;}
+     .org-pos-wrapper{
+        bottom: 2px;
+    }
+    .drag-wrapper{
+        bottom: 2px;
+    } */
+}
+
+

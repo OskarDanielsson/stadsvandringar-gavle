@@ -1,0 +1,65 @@
+{
+    "id" : "barn", 
+    "name" : "Barnvandring", 
+    "startPosition" : [60.674649, 17.141657],
+    "overlay" : "Karta_barnvandring.jpg",
+    "overlayPosition" : [[60.684563, 17.115324], [60.665380, 17.160650]],
+
+    "stopList" : [
+		{	
+			"id" : "1",
+			"name" : "Stortorget",
+            "position" : [[60.674754, 17.141899], [60.674534, 17.142730]],
+            "assets" : ["Stortorget.png","Stortorget_2.png"],
+            "text" : {
+                "sv" : ["Hej! Vilken tur att du kom! Jag behöver din hjälp! Jag heter Bocka... Ja du kanske undrar varför jag kan prata. Egentligen är jag en vanlig flicka, men jag har blivit förvandlad till en bock av ett elakt troll som vill äta upp mig! Han äter bara bockar förstår du. Du kan hjälpa mig att bryta förtrollningen! Men vi måste ta oss till den plats där världens största bock bor. Kan du hjälpa mig dit? Om vi tillsammans använder din karta kan vi nog hitta fram. Men trollet har gjort någonting med pelarna här på torget också, han har gjort ett magiskt osynligt kraftfält mellan dem som gör att jag inte kan komma härifrån. Om du kan hjälpa mig att ställa dem tillrätta kan vi förstöra kraftfältet! Om du går ut på mitten av Blixtlåset, det ser ut som en dragkedja som går rakt över torget, kan du hjälpa mig att ställa pylonerna på rätt plats, det borde förstöra det magiska kraftfältet som trollet satt upp.", "  Hurra! Kraftfältet är förstört du klarade det, men nu måste vi skynda oss vi har inte lång tid på oss innan trollet märker att jag är borta. Använd kartan och visa vägen!"],
+                "eng" : "Null"
+            },
+            "sound" : ["1_1_stortorget.mp3","1_2_stortorget.mp3"]
+		},
+		{	
+			"id" : "2",
+			"name" : "Getgubben",
+            "position" : [[60.674764, 17.143536], [60.674500, 17.144027]],
+            "assets" : ["Getgubben.png", "Getgubben_2.png"],
+            "text" : {
+                "sv" : ["Oj oj oj ... Hur ska jag nu veta .... Bocka är det du? Har du brutit dig ut ur trollets magiska kraftfält? Jag ser att du har hittat någon att hjälpa dig, vilken tur! ... Då antar jag att du är på väg att bryta förtrollningen. Jag förstår att ni har bråttom men ni måste hjälpa mig för er egen skull. Det där hemska trollet har ställt om tiden med sin onda magi. Om du ska hinna bryta förtrollningen i tid måste du hjälpa mig att ställa tiden till rätta.", "Hurra ni klarade det! Skynda er nu. Jag och min get ska se till att lura bort Trollet om han skulle komma tillbaka och leta efter er."],
+                "eng" : "Null"
+            },
+            "sound" : ["2_1_getgubben.mp3","2_2_getgubben.mp3"]
+		},
+		{	
+			"id" : "3",
+			"name" : "Kung Kristoffers Park",
+            "position" : [[60.673899, 17.145234], [60.673792, 17.145709]],
+            "assets" : ["radhuset.png","radhuset_2.png"],
+            "text" : {
+                "sv" : ["Hjälp! Kan någon hjälpa mig! Åh, vilken tur att ni kom hit, trollet kastade en ond trollformel på mig och nu kan jag inte se mer. Jag har bråttom till Stortorget där jag ska träffa min farmor men jag kan inte lista ut vilken av alla dessa vägar som leder dit.  Kan ni hjälpa mig?", "Toppen! Tack så mycket för hjälpen nu hittar jag. Skynda er nu att bryta förtrollningen så jag får tillbaka min syn och så att du blir en flicka igen Bocka... Men passa er för trollet, innan jag förlorade min syn såg jag honom i närheten av Kungsbron."],
+                "eng" : "Null"
+            },
+            "sound" : ["3_1_kristoffers_park.mp3","3_2_kristoffers_park.mp3"]
+		},
+		{	
+			"id" : "4",
+			"name" : "Södra Roddartrappan",
+            "position" : [[60.673287, 17.145597], [60.673214, 17.146359]],
+            "assets" : ["kajkanten.png","kajkanten_2.png"],
+            "text" : {
+                "sv" : ["Vad nu, vad är det där som låter (brak!) Åh nej! Trollet har förstört bron för att jag inte ska kunna ta mig över och bryta förtrollningen! Du måste skynda dig att bygga ihop bron igen, Trollet är här när som helst!", "Yes! Du klarade det, snyggt jobbat! Kom nu vi måste skynda oss trollet är på väg!"],
+                "eng" : "Null"
+            },
+            "sound" : ["4_1_kungsbron.mp3","4_2_kungsbron.mp3"]
+		},
+		{	
+			"id" : "5",
+			"name" : "Slottstorget",
+            "position" : [[60.672922, 17.146031], [60.672756, 17.146712]],
+            "assets" : ["slottstorget.png","slottstorget_2.png"],
+            "text" : {
+                "sv" : ["Här är det, vi klarade det! Nu är jag en vanlig flicka igen – tack så mycket! Men vänta, där kommer det där hemska trollet! Vi ska allt visa honom. Jag tror att jag har lite magiska krafter kvar att leka med, hjälp mig att förtrolla Trollet!", "Ha där fick han allt! Jag tror inte han kommer tillbaka i första taget. Tusen tack för all hjälp! Du har varit jätteduktig, nu är alla trollets onda förtrollningar brutna och jag är Becka igen. Jag kan inte tacka dig tillräckligt! Det har varit jätteroligt att lära känna dig, och jag hoppas vi ses snart igen någonstans här i Gävle."],
+                "eng" : "Null"
+            },
+            "sound" : ["5_1_slottstorget.mp3","5_2_slottstorget.mp3"]
+		}
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "id" : "historisk", 
+    "name" : "Historisk vandring", 
+    "startPosition" : [60.674880, 17.141488],
+    "overlay" : "nyKarta.jpg",
+    "overlayPosition" : [[60.684563, 17.115324], [60.665380, 17.160650]],
+
+    "stopList" : [
+		{	
+			"id" : "1",
+			"name" : "Teatern",
+            "position" : [[60.677999, 17.140992], [60.677174, 17.142565]],
+            "assets" : ["1_1_branden.jpg", "1_2_branden.jpg", "1_3_branden.jpg", "1_4_branden.jpg", "1_5_branden.jpg", "1_6_esplanaden.jpg", "1_7_en_riksdaler.jpg", "1_8_gamla_teatern.jpg", "1_9_closeup.jpg"],
+            "text" : {
+                "sv" : "Sommaren 1869 gick Gävle, bokstavligt talat, upp i rök. Det började brinna i en snickarverkstad och inom loppet av några timmar hade elden slukat över 500 gårdar och gjort 8 000 människor hemlösa. Branden – som är den största i Sverige – slutade precis här, vid Staketgatan. Men Gävle byggdes snabbt upp igen och för att undvika liknande katastrofer i framtiden drog man fram ett par breda brandgator rakt genom staden. En av dessa är Rådhusesplanaden, där vi nu befinner oss. Jag kan också berätta att den snickare som ansågs ha orsakat branden, han hette Erlandsson, krävdes på flera miljoner av försäkringsbolagen men slapp undan med 37 riksdaler och 50 öre i rättegångskostnader. En liten bit söderut här i Esplanaden stod Sveriges största och mest moderna landsortsteater. Den var byggd 1840 och hade 600 platser. Även den blev lågornas rov vid den stora stadsbranden och 1878 invigdes vår nuvarande teater. Den ritades av stockholmsarkitekten Axel Fredrik Nyström som sägs ha inspirerats av Operan i Paris. Precis som den har teatern här i Gävle sitt eget spöke – en grå figur som heter Gunnar. Det påstås att han när som helst kan dyka upp på scenen, men det är bara skådespelarna som kan se honom. Eller också skyller de bara på honom när de kommer av sig. Om man lyfter blicken lite så ser man tre byster som pryder teaterns fasad. De föreställer Mozart, Shakespeare och Molière och under varje porträtt står namnen målade med stora bokstäver. Men Shakespeare är felstavat och Molière har fått accenten åt fel håll. Två små oförargliga misstag som glädjande nog fått överleva alla fasadputsningar.",
+                "eng" : "Null"
+            },
+            "sound" : "01_Teatern.mp3"
+		},
+		{	
+			"id" : "2",
+			"name" : "Hedbergs fontäner",
+            "position" : [[60.676981, 17.141595], [60.675303, 17.144409]],
+            "assets" : ["2_1_ledaosvanen.jpg", "2_2_leda_och_svanen.jpg", "2_3_drottning_kristina.jpg", "2_4_hedberg.jpg", "2_5_snostaty.jpg"],
+            "text" : {
+                "sv" : "Bland de lummiga träden här i i Rådhusesplanaden står två fontäner – en bra bit från varandra. De skänktes till stadens invånare av grosshandlaren Anders Magnus Hedberg och stod klara 1880. På en av dem, den närmast teatern, ser vi ”Leda och svanen”. Det är ett känt motiv ur den grekiska mytologin och handlar om hur drottning Leda förförs av guden Zeus som för tillfället förvandlat sig till en svan. Men tittar man noga så ser man att Leda här i Gävle i själva verket är en lite pojke – något som stadens invånare funderat över i mer än 130 år. Den andra fontänen toppas av drottning Kristina, Karl XI:s änka. Hon var Gävles beskyddare under några år på 1600-talet och gjorde stora insatser för staden. Bohuslänningen Carl Johan Dyfverman, som är upphovsman till båda konstverken, gjorde även en del andra statyer i Gävle. Hans mest kända verk har dock ingen av oss sett. Det var ett antal fantastiska skulpturer i snö som han gjorde här i Rådhusplanaden runt 1890 och som drog in stora pengar till välgörande ändamål.",
+                "eng" : "Null"
+            },
+            "sound" : "02_hed.mp3"
+		},
+		{	
+			"id" : "3",
+			"name" : "Rådhuset",
+            "position" : [[60.674974, 17.143920], [60.674356, 17.145712]],
+            "assets" : ["3_1_radhuset_nutid.jpg", "3_2_ennes.jpg", "3_3_spegelsalen.jpg", "3_4_radhuset.jpg", "3_5_radhuset_efter_branden.jpg"],
+            "text" : {
+                "sv" : "Vi befinner oss nu på Rådhustorget, som i alla år varit något av Gävles hjärta – och ibland också dess hjärna. På östra sidan, efter Norra Rådmansgatan, ser vi Stadshuset som byggdes i början av 1800-talet som bostad åt Per Ennes, en av stadens många mäktiga grosshandlare. Byggnaden förstördes vid stadsbranden men rustades upp och har sedan inhyst såväl stadshotell som polisstation. I dag används byggnaden av den kommunala förvaltningen och i den vackra spegelsalen håller kommunfullmäktige sina sammanträden. Den kantiga kvinnan i röd granit som ligger och ser fundersam ut i sin bassäng här ute har blivit något av en symbol för Gävle. Hennes fullständiga namn är ”Gudinna vid hyperboreiskt hav” men i vardagslag får hon för det mesta bara heta Gudinnan. Hon har också, åtminstone förr, kallats för det mer vanvördiga ”Fnasket i plasket”. Statyn kom på plats 1956 och ska – hur otroligt det än låter – ”hugfästa tillkomsten av landets första större järnväg”. Alltså banan mellan Gävle och Falun som byggdes på 1850-talet. Skulptören hette Eric Grate och det skulle dröja ett bra tag innan Gävleborna tog hans kubistiska konstverk till sitt hjärta. Så har vi då själva Rådhuset från 1790. Även det blev illa åtgånget av branden men återställdes några år senare i en lite annan skepnad. Tingsrätten hade sina lokaler här till 1993 och idag ägs fastigheten av Gävle kommun, som har svårt att bestämma sig för vad det gamla Rådhuset ska användas till i framtiden. En trevlig detalj är klockspelet i tornet med sina vackra folkvisor.",
+                "eng" : "Null"
+            },
+            "sound" : "03_Radhustorget.mp3"
+		},
+        {	
+			"id" : "4",
+			"name" : "Bakom Rådhuset",
+            "position" : [[60.674256, 17.144546],[60.673708, 17.146166]],
+            "assets" : ["4_1_skampale.jpg", "4_2_trahast.jpg", "4_3_john_rettig.jpg"],
+            "text" : {
+                "sv" : "På 1700-talet var både stadens skampåle och den fruktade trähästen uppställd på den här platsen mellan Rådhuset och ån. Pålen var försedd med kedja och halsjärn och trähästen såg faktiskt ut som en hopsnickrad häst med fyra höga ben och en vass rygg. På den fick dömda brottslingar sitta några timmar med bakbundna händer och tyngder kring fötterna och begrunda sina gärningar till allmän beskådan. Båda redskapen kom ofta till användning även om tanken var att de också skulle ha en avskräckande effekt. Den här typen av straff avskaffades inte förrän 1855, samtidigt som spöslitningen. Här har vi också en fjärde fontän, även om den inte är lika mäktig som de längre upp i Esplanaden. Bland de nästan hundra skulpturer och andra offentliga konstverk som finns i Gävle är den här gröna damen den enda man inte vet vem som är upphovsman till. Den donerades av tobaksfabrikören John Rettig 1891 och kallas därför för Rettigska fontänen. I de gamla sjöstäderna fanns det tjänstemän som vägde, mätte och registrerade alla varor som skulle lastas ombord på fartygen och skeppas i väg. I Gävle handlade det mest om stångjärn från bruken i Gästrikland och Bergslagen och redan på 1500-talet fanns det en järnvåg i staden. På den tiden kunde man segla rätt långt upp i Gavleån och ännu i början av 1700-talet låg det lilla skjulet med vågen här bakom Rådhuset, i en sluttning ner mot ån. Nya järnvågar har senare byggts närmare havet.",
+                "eng" : "Null"
+            },
+            "sound" : "04_BakomRadhuset.mp3"
+		},
+        {	
+			"id" : "5",
+			"name" : "Slottstorget",
+            "position" : [[60.673525, 17.145251], [60.672881, 17.146819]],
+            "assets" : ["5_1_slottstorget.jpg", "5_2_slottstorget.jpg", "5_3_tredelad_vilande_figur.jpg", "5_4_get.png"],
+            "text" : {
+                "sv" : "Henry Moores moderna staty här på Slottstorget heter ”Tredelad vilande figur, draperad”. Den invigdes 1976 och möttes av en glödande motvilja från Gävleborna, åtminstone om man ska döma av kommentarerna på tidningarnas insändarsidor. Men folk vande sig vid den styckade kvinnan och när en amerikansk konstsamlare år 2005 erbjöd sig att köpa den för 50 miljoner kronor sade kommunledningen blankt nej! Gävles allra mest kända ”staty” är inte gjord av lika brandsäkert material. Ett faktum som gjort den berömd över hela Sverige – ja, faktiskt hela världen. Från 1966 är det tradition att den stora halmbocken – den är 13 meter hög – sätts upp här på Slottstorget inför julen. Och nästan varje år smyger sig någon fram och bränner ner den. Ibland till och med innan den har hunnits invigas. Bland Gävleborna råder det delade meningar om detta årliga pyromandåd. En del tycker att det är förfärligt – andra ser det som fin reklam för stan.",
+                "eng" : "Null"
+            },
+            "sound" : "05_Slottstorget.mp3"
+		},
+        {	
+			"id" : "6",
+			"name" : "Gamla Gefle",
+            "position" : [[60.673574, 17.147755], [60.672555, 17.149782]],
+            "assets" : ["6_1_gamlastan.jpg", "6_2_joehill_garden.jpg", "6_3_joe_hill.jpg"],
+            "text" : {
+                "sv" : "Hela södra delen av Gävle klarade sig helskinnad vid stadsbranden på 1800-talet. Men mot 1900-talets stadsplanerare hade den inte en chans. Vid den så kallade Södersaneringen på 1950-talet mejades i stort sett hela den gamla bebyggelsen ner och ersattes av moderna hus och raka gator. En liten del av Söder bevarades dock som kulturreservatet Gamla Gefle. Från början bodde också mest konstnärer och konsthantverkare i husen kring de kullerstensbelagda gränderna. På Nedre Bergsgatan 28 hittar vi Joe Hill-gården. Där föddes den socialistiske sångaren och agitatorn Joel Hägglund som 1902 emigrerade till USA och började kalla sig Joe Hill. Han har blivit något av en kultfigur på olika håll i världen sedan han 1915 dömdes för mord och avrättades efter en omdiskuterad rättegång.",
+                "eng" : "Null"
+            },
+            "sound" : "06_GamlaGefle.mp3"
+		},
+        {	
+			"id" : "7",
+			"name" : "Slottet",
+            "position" : [[60.672681, 17.143583], [60.672100, 17.145930]],
+            "assets" : ["7_1_sagoslott.jpg", "7_2_slottet.jpg", "7_3_slottet.jpg", "7_4_berggrenska_garden.jpg"],
+            "text" : {
+                "sv" : "På södra sidan om Gavleån reser sig Gävle slott. När det byggdes av Johan III på 1500-talet såg det ut som ett riktigt sagoslott med tinnar och torn. Idag finns bara de tjocka murarna kvar från den tiden. Det finns också en gammal sägen som berättar om hur en av slottets pigor en dag år 1727 var på väg upp på vinden med en tvättkorg. Hon bar ett tänt ljus i handen och plötsligt var olyckan framme. Elden spred sig snabbt och snart låg hela slottet i ruiner. När det byggdes upp igen gav arkitekten Carl Hårleman det en lite stramare utformning. Det påstås att den olyckliga pigan fortfarande vankar omkring i slottet med sin tvättkorg tillsammans med husets övriga spöken – Johan Wattrang, grevinnan Wrangel och allt vad de heter. Härifrån Slottet på andra sidan Gavleån, kan vi se Berggrenska Gården. Det var troligen de lummiga träden på gårdsplanen som gjorde att elden aldrig fick fäste i änkefru Berggrens hus från 1815. Så när röken skingrades efter stadsbranden 1869 var hennes gård den enda byggnad som stod kvar bland de hundratals ruinerna på norra sidan om ån. Svartbränd, rejält tilltufsad men kanske också lite stolt. Och eftersom det seglivade huset även lyckades stå emot 1900-talets alla klåfingriga stadsplanerare så kan vi fortfarande njuta av Berggrenska gården – en av Gävles pärlor.",
+                "eng" : "Null"
+            },
+            "sound" : "07_Slottet.mp3"
+		},
+        {	
+			"id" : "8",
+			"name" : "Fängelset",
+            "position" : [[60.671761, 17.141468], [60.670931, 17.143818]],
+            "assets" : ["8_1_gamlafangelset.jpg", "8_2_tradgard.jpg", "8_3_per_johan_pettersson.jpg", "8_4_familjen.jpg", "8_5_bjorken.jpg"],
+            "text" : {
+                "sv" : "\"Åk in i Gävle!\" uppmanar Sveriges Fängelsemuseum alla turister som passerar på motorvägen. Museet ligger granne med slottet och består av två delar: det gamla slottshäktet från 1732 och det drygt hundra år yngre cellfängelset på andra sidan Timmermansgatan. I slottshäktet kan du besöka de ruggiga arresterna och titta ner i de ännu ruggigare fängelsehålorna under golvet. Där nere fick de människor som inte kunde betala sina böter sitta – men även de som vägrade erkänna de brott de anklagades för. Det stora cellfängelset byggdes där slottets trädgård tidigare låg och var ett av de första i sitt slag i Sverige. Avsikten med att fångarna skulle avtjäna sina straff i små rum med galler för fönstren var faktiskt ett sätt att humanisera fångvården och komma bort från de tortyrliknande kroppsstraffen. Ändå fortsatte man att halshugga mördare i Sverige ända till 1910. En enda avrättning verkställdes här på anstalten i Gävle. Det var 1893 då den så kallade Alftamördaren, Per Johan Pettersson, miste huvudet och livet på fängelsegården inför 40 vittnen. Tillsammans med sin far och sina två bröder hade 30-årige Per Johan skjutit ihjäl två polismän som intresserade  sig för deras lönnkrog i byn Mossbo. Och trots att det inte var Per Johan som höll i geväret blev han den ende av de fyra som dömdes till döden. Fadern fick ett års fängelse och hans bröder livstid. Så när resten av familjen transporterades till Långholmen för att avtjäna sina straff konstaterade Per Johan tappert: \"Då var det ändå jag som fick det kortaste straffet!\" Någon har planterat en björk på det ställe där bilan föll – och den står kvar där än i dag. Det gamla cellfängelset i Gävle lades ned 1986 och är idag Gävles Kulturhus.",
+                "eng" : "Null"
+            },
+            "sound" : "08_Fangelset.mp3"
+		}, 
+        {	
+			"id" : "9",
+			"name" : "Gammelbron",
+            "position" : [[60.672016, 17.139342], [60.671185, 17.140405]],
+            "assets" : ["9_1_gammelbron.jpg", "9_2_skylt.jpg", "9_3_bron.jpg"],
+            "text" : {
+                "sv" : "I dag finns det många broar över Gavleån. Den äldsta av dem kallas mycket riktigt för Gammelbron och har i olika skepnader stått här sedan 1400-talet. Fram till 1580 var det den enda förbindelsen mellan stadens norra och södra delar och enda möjligheten att torrskodd ta sig från Mellansverige till Norrland efter kusten. Vid stadsbranden 1869 fick elden fäste i trävirket på bron och risken var stor att katastrofen skulle sprida sig till husen på södra sidan. För att undvika detta beslöt några rådiga män att bron skulle rivas. Det var ett hårt arbete, men efter några timmar hade man sågat av stöttorna och huggit sönder så mycket av virket att den brinnande bron störtade i ån.",
+                "eng" : "Null"
+            },
+            "sound" : "09_Gammelbron.mp3"
+		},
+        {	
+			"id" : "10",
+			"name" : "Konserthuset",
+            "position" : [[60.672421, 17.131867], [60.671223, 17.134201]],
+            "assets" : ["10_1_fore_konserthuset.jpg", "10_2_strombadet.jpg", "10_3_konserthuset.jpg", "10_4_klinker.jpg"],
+            "text" : {
+                "sv" : "Efter att ha varit husvilla sedan 1912 fick Gävle symfoniorkester sitt efterlängtade Konserthus i januari 1998. Tidigare låg här Strömbadet och det var på det gamla badhusets grund som den blåskimrande byggnaden uppfördes efter arkitekten Bo Karlbergs ritningar. Det cylinderformade huset är klätt i 138 000 blå klinkerplattor och innehåller två konsertlokaler: Gevaliasalen med 820 sittplatser och den mindre Bo Linde-salen, som fått sitt namn efter en kompositör från Gävle. Båda salarna används också för konferenser och andra sammankomster. På andra sidan Kungsbäcksvägen ligger Villastaden, en stadsdel som skapades på privat initiativ runt förra sekelskiftet. De flesta husen har ritats av kända arkitekter enligt de idéer som för stunden varit i ropet. Och eftersom området vuxit fram under flera decennier finns nästan alla 1900-talets byggstilar representerade – från fornnordiskt inspirerade grosshandlarvillor via strama funkiskåkar till åttiotalets mexitegel.",
+                "eng" : "Null"
+            },
+            "sound" : "10_Konserthuset.mp3"
+		},
+        {	
+			"id" : "11",
+			"name" : "Strömvallen",
+            "position" : [[60.673385, 17.126975], [60.672061, 17.130338]],
+            "assets" : ["11_1_stromvallen.jpg", "11_2_tegelsten.png", "11_3_dam_sm.jpg", "11_4_gunder_hagg.jpg", "11_5_haggstaty.jpg"],
+            "text" : {
+                "sv" : "Strömvallen tillhör de klassiska idrottsarenorna i Sverige och var en av de mest moderna när den invigdes 1923. För att finansiera bygget – anläggningen kostade 100 000 kronor – gick idrottare och skolbarn omkring och sålde symboliska tegelstenar till allmänheten. Det var små lappar av hård papp som kostade 25 öre styck och det påstås att affärerna gick strålande även om en och annan tilltänkt bidragsgivare betraktade hela projektet som vansinne och fräste ”idrottsidioter” när de artiga ynglingarna knackade på. Det var på Strömvallen som Brynäs IF blev svenska mästare i fotboll 1925 och IK Huge i bandy 1939. Här arrangerades det första svenska mästerskapet i friidrott för damer 1928 och när VM i fotboll för damer avgjordes i Sverige 1995 gick flera av matcherna på Strömvallen. Gefle IF:s allsvenska fotbollslag spelade sina hemmamatcher här till 2015 då Gavlevallen invigdes på Sätra. Den strama fasaden mot Kungsbäcksvägen kompletterades 1948 med Olof Ahlbergs staty Löparen. Den föreställer en spritt naken Gunder Hägg som tävlade för Gefle IF från 1941 till 1943. Under den tiden slog han elva världsrekord – men inte ett enda här på Strömvallen, trots många försök. 1946 diskvalificerades Gunder Hägg på livstid för att ha brutit mot amatörbestämmelserna. Det innebar att han inte kunde ställa upp i OS i London 1948. Det gjorde däremot den här statyn, för på den tiden hade man olympiska tävlingar även i litteratur, konst och musik. Men någon medalj blev det inte.",
+                "eng" : "Null"
+            },
+            "sound" : "11_Stromvallen.mp3"
+		},
+        {	
+			"id" : "12",
+			"name" : "Stadsparken Boulognerskogen",
+            "position" : [[60.674279, 17.119993], [60.673123, 17.123212]],
+            "assets" : ["12_1_Bolognern.jpg", "12_2_kiosken.jpg", "12_3_Boulognern.jpg", "12_4_bandy.jpg"],
+            "text" : {
+                "sv" : "Det långsträckta grönområdet på Gavleåns norra sida består av Boulognerskogen och Stadsparken. Boulognerskogen, eller ”Bolongern” som Gävleborna säger, är den del som ligger längst bort från stadens centrum och man brukar säga att gränsen går ungefär här vid kraftverksbron. Stadsträdgården är äldre än Boulognerskogen. Och då menar man inte bara vår egen boulognerskog, utan även förebilden i Paris, som stod färdig 1858. Redan tretton år tidigare kunde man inviga den första delen av Stadsträdgården här i Gävle, även om den då bara sträckte sig några hundra meter efter ån. Där tog kyrkans ägor över och där gick prästens kor fortfarande och betade bland trädstammarna. Sedan slutet av 1800-talet har Boulognerskogen varit något av småfolkets oas. Att ta spårvagnen hit var länge ett populärt söndagsnöje för familjer och svärmande par. Och de som inte ville spendera några kronor på kaffe och bakelser från någon av de sex uteserveringarna kunde breda ut sina filtar på gräset mellan tallarna och duka fram flaskor och smörgåsar ur medhavda korgar. Det var här musiken flödade varenda sommarkväll – från Kristi Himmelsfärd till långt in i augusti. Det var hit förstamajtågen ställde kosan och det var här – ute på Gavleån – som den första SM-finalen i bandy spelades en vinterdag 1907. Men den kära parken utsattes också för lömska hot. En bit in på 1900-talet var det tal om att kyrkogården från 1808 skulle utvidgas till att omfatta hela Boulognerskogen. Men det avstyrdes av stadsfullmäktige och i protokollet noterades att Boulognerskogen är till för de levande och inte för de döda.",
+                "eng" : "Null"
+            },
+            "sound" : "12_StadstradgardenBoulognerskogen.mp3"
+		},
+        {	
+			"id" : "13",
+			"name" : "Agnes von Krusenstjernas Allé",
+            "position" : [[60.675200, 17.119478], [60.674815, 17.128683]],
+            "assets" : ["13_1_agnes.jpg", "13_2_loppet.jpg", "13_3_isaac_westergren.jpg"],
+            "text" : {
+                "sv" : "1842 planterades den 500 meter långa lindallén från kyrkogården in mot stan. Sedan 1987 heter den Agnes von Krusenstjernas Allé och har fått sitt namn efter den berömda författarinnan som bodde i Gävle som barn. Innan Gävle fick en riktig idrottsplats användes den här långa raka allén ibland som löparbana åt stadens idrottsföreningar. I september 1902 arrangerades en stafettävling här på grusgången, gällande 4 x 100 meter. När IFK Gävles lag klockades för 46,0 sekunder var glädjen stor, eftersom man sprungit 1,6 sekunder snabbare än det skandinaviska rekordet. I själva verket hade de fyra grabbarna satt världsrekord, men de hade de inte en aning om. Och de fick aldrig veta det heller! Visst låter det otroligt, men världsrekord i friidrott började inte bokföras ordentligt förrän 1913. Och det var långt senare som Internationella friidrottsförbundet gjorde en sammanställning över tidigare, väl dokumenterade, rekordnoteringar. Men idag finns IFK Gävle med Isaac Westergren, Harald Åsbrink, Thore Lidén och Torsten Arnell registrerade som världsrekordhållare i den officiella statistiken.",
+                "eng" : "Null"
+            },
+            "sound" : "13_AgnesvonKrusenstjernasAlle.mp3"
+		},
+        {	
+			"id" : "14",
+			"name" : "Milles Änglar",
+            "position" : [[60.673869, 17.132245], [60.673134, 17.133919]],
+            "assets" : ["14_1_najaden.jpg", "14_2_milles_anglar.jpg"],
+            "text" : {
+                "sv" : "I den änden av stadsparken som ligger närmast kyrkan och stadens centrum byggdes på 1840-talet ett kallbadhus som fick namnet Najaden. Det blev med tiden ett förfärligt ruckel och revs inte förrän 1956. På samma plats placerades den här skulpturgruppen 1983. Den är gjord av Carl Milles och heter ”Fem musicerande genier”. Genier är enligt den romerska mytologin en sorts goda andar som kan jämföras med skyddsänglar. Som så många andra skulpturer i Gävle är det här konstverket en gåva från GDJ-fonden, där GDJ står för Gefle-Dala Järnväg.",
+                "eng" : "Null"
+            },
+            "sound" : "14_MillesAnglar.mp3"
+		},
+        {	
+			"id" : "15",
+			"name" : "Gustav Vasa-statyn i Kvarnparken",
+            "position" : [[60.673410, 17.134976], [60.672662, 17.136489]],
+            "assets" : ["15_1_gustav_vasa_staty.jpg", "15_2_gefleif_klubbmarke.jpg"],
+            "text" : {
+                "sv" : "Skulptrisen Ida Matton föddes och dog i Gävle men tillbringade en stor del av sitt liv i Paris. Det var också där hon skapade den staty av Gustav Vasa som sedan 1924 står här i Kvarnparken och spejar ut över ån. Konstverket bekostades av Idas bror, garverifabrikören Emil Matton. Den lite krystade motiveringen till att Gustav Vasa hedrats med en staty i Gävle är att staden tidigt anslöt sig till hans frihetsrörelse 1521 Även på andra håll i Gävle kan man stöta på skulpturer av Ida Matton. Inte minst på Gamla kyrkogården där forna dagars grosshandlare och fabrikörer gärna krönte sina familjegravar med sörjande kvinnogestalter och dystra änglar. Ida Mattons minst kända men mest spridda verk är nog ändå Gefle IF:s klubbmärke från 1903.",
+                "eng" : "Null"
+            },
+            "sound" : "15_GustavVasastatyn.mp3"
+		},
+        {	
+			"id" : "16",
+			"name" : "Kyrkan",
+            "position" : [[60.672955, 17.136896], [60.672494, 17.139611]],
+            "assets" : ["16_1_kyrkan_skiss.jpg", "16_2_kyrkan.jpg"],
+            "text" : {
+                "sv" : "Det finns människor som bott i Gävle i hela sitt liv men aldrig lagt märke till att det 50 meter höga tornet på Heliga Trefaldighetskyrkan lutar. Ändå är det ingen liten deformering det handlar om. Den är lite svår att upptäcka med blotta ögat, men tittar man på en skiss av byggnaden som stadsarkitekten Sven Wranér gjorde 1931, efter noggranna uppmätningar, så ser man tydligt att det förgyllda korset högst upp befinner sig över två meter längre västerut än det skulle ha gjort om tornet stått rakt! Det innebär att kyrktornet i Gävle inte är så värst mycket rakare än det betydligt mer berömda fuskbygget i Pisa. Orsaken till att Storkyrkan – som den också kallas – står lite på sniskan är att den uppförts på en sällsynt olämplig plats. Den tunga byggnaden vilar på ett åtta meter tjockt lager av sandblandad lera, och under den finns en berggrund som sluttar ner mot Gavleån. Den nuvarande kyrkan byggdes på 1600-talet och såg redan från början ut ungefär som idag, med skillnaden att den saknade torn. Klockorna hängde istället i en stapel av trä som stod på ett torg i närheten. Snart upptäckte Gävleborna till sin förskräckelse att murarna började rämna. Och under en stor del av 1700-talet tvingades man vidta en rad dyra och besvärliga åtgärder för att inte helgedomen skulle störta samman. Ja, ett tag var det till och med tal om att riva den. Istället bestämde man sig – konstigt nog – för att bygga ett högt torn på den bräckliga kyrkan!  Redan när kyrkorådet besiktade bygget i maj 1780 noterade ledamöterna att tornet lutade så kraftigt att det hotade att när som helst rasa omkull. Så snart var man åter i full färd med att påla och bygga strävpelare för att hålla huset på plats. Efter ytterligare grundförstärkningar under 1900-talet anses det dock inte längre vara någon risk för att kyrktornet ska falla i backen. Det berättas ibland att stadsbyggmästaren Rafael Pousette, som ansvarade för tornbygget, tog så illa vid sig att han begick självmord. Men det är inte sant. Pousette var en aktad man i Gävle, även efter det här fiaskot. Han ligger förresten begravd i det lilla gravkor som 1798 byggdes på tornets södra sida – delvis för att stötta upp hans lutande byggnadsverk.",
+                "eng" : "Null"
+            },
+            "sound" : "16_Kyrkan.mp3"
+		},
+        {	
+			"id" : "17",
+			"name" : "Stortorget",
+            "position" : [[60.675127, 17.139428], [60.673871, 17.142861]],
+            "assets" : ["17_1_stortorget.jpg", "17_2_storgorget_torgvy.jpg", "17_3_bankshuset.jpg", "17_4_gevaliapalatset.jpg", "17_5_torggumma.jpg", "17_6_drottninggatan.jpg", "17_7_drottninggatan_butiker.jpg", "17_8_domus_varuhus.jpg", "17_9_hamnen.jpg"],
+            "text" : {
+                "sv" : "Vi befinner oss nu på Stortorget, eller Nytorget, som det hette när det skapades på 1870-talet, direkt efter stadsbranden. Platsen blev snabbt Gävles kommersiella centrum, inramat av de finaste butikerna och de pampigaste bankpalatsen. Och från bord och kärror sålde man strömming och potatis, grönsaker och blommor, kläder och varmkorvar. Och det gör man faktiskt ännu i våra dagar. 1973 uppförde Konsum ett nytt varuhus som ockuperade en rätt stor del av torgets västra sida. Det blev naturligtvis livliga protester, dels för att torget blev mindre, men också för att huset byggdes i gråaste betong. Fasaden fick dock ett trevligare utseende 1991 då Filmstaden flyttade in bakom en avrundad och inglasad utbyggnad. Den här promenaden genom Gävle började där stadsbranden slutade. Och slutar där den började! Det var nämligen precis här som den dramatiska händelsen startade den där lördagen i juni 1869. Här låg då ett gytter av små träkåkar och på gamla kartor ser vi att snickarmästare Erlandssons lilla verkstad, där man slarvade med elden, låg tio-femton meter rakt framför nuvarande McDonalds på Drottninggatan. Följer vi den gatan österut, förbi järnvägen, kommer vi ner till havet där segelskutorna gungade vid kajerna i hundratals år. Där det luktade trä och kaffe, kryddor och tjära. Och där det låg fabriker som tillverkade allt från skördetröskor till halstabletter. Men det är en annan historia…",
+                "eng" : "Null"
+            },
+            "sound" : "17_Stortorget.mp3"
+		}
+        
+	]
+  
+    
+}

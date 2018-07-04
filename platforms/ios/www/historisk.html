@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' *; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *"> -->
+
+       <!-- JS -->
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        
+        <!-- jQuery Mobile -->
+        <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+        
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="js/Swiper/dist/css/swiper.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/map.css" />
+
+        
+        <!-- Material CSS -->
+	   <link href="css/base.css" rel="stylesheet">
+	    <!-- css for doc -->
+	    <link href="css/project.min.css" rel="stylesheet">
+        
+                        
+        <title>Gävle City Stadsvandringar</title>
+    </head>
+    <body class="page-brand map-body">
+        <header class="header header-custom">
+           <div class="flex space-between">
+                <a id="back" href="#" class="btn btn-flat waves-attach waves-button" data-toggle="modal">
+                   <img src="img/back.png" alt="Back">
+                </a>
+                <p id="header-text">Historisk Vandring</p>
+                <a id="header-help-button" href="#help-modal" class="btn btn-flat waves-attach waves-button" data-toggle="modal">
+                    <img src="img/help.png" alt="Help">
+               </a>
+            </div>
+        </header>
+        <main>
+
+           
+           
+            <div id="map_canvas">
+	        <!-- Other Sponsors Page -->
+            <div id="post-hike-page" class="overlay">
+				<div class="card-wrap">
+						<div class="col-lg-4 ">
+							<div class="card">
+								<div class="card-main">
+								    <div class="card-header">
+                                        <div class="card-inner">
+								            <p class="card-heading">Övriga Sponsorer</p>
+								        </div>
+                                    </div>
+									<div class="card-inner">
+                                        <div id="post-sponsor-logos">
+                                               <div class="row margin">
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/nian.png" alt="Galleri Nian"  class="sponsor-image-small">
+                                                </div>
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/elite.png" alt="Elite Hotel"  class="sponsor-image-small">
+                                                </div>
+                                            </div>
+                                               <div class="row margin">
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/cl.png" alt="CL"  class="sponsor-image-small">
+                                                </div>
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/fangelse.png" alt="Sveriges Fängelsemuseum"  class="sponsor-image-small">
+                                                    
+                                                </div>
+                                                </div>
+                                                <div class="row margin">
+                                                    <div class="col-xx-6 margin flex column">
+                                                        <img src="img/scandic.png" alt="Scandic CH"  class="sponsor-image-scandic">
+                                                    </div>
+                                                </div>                                          
+                                        </div>
+									</div>
+									<div class="card-action">
+										    <div class="card-action-btn pull-right">
+                                                <a href="index.html" id="post-hike-back" class="btn btn-flat waves-attach waves-button">Fortsätt</a>
+								            </div>			
+									</div>
+								</div>
+							</div>
+						</div>
+            </div>    
+            </div>           
+<!-- End of Other Sponsors Page -->
+             
+<!-- Help Modal -->
+              
+            <div aria-hidden="true" class="modal fade" id="help-modal" role="dialog" tabindex="-1">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+                        <div class="modal-heading">
+                            <h2 class="modal-title">Hur gör jag?</h2>
+                        </div>
+                        <div class="modal-inner">
+                            <div id="card-content">
+                                <p>Enkelt, se till att positionering är aktiverat på telefonen och starta den ca 2 kilometer trevliga vandringen i vår fina stad.</p>
+                                <p>När du är nära en berättelse (stopp på kartan) visas en förfrågan visas på skärmen. Du väljer Visa stopp eller Hoppa över, du kan även trycka på de rosa markörerna på kartan för att starta berättelsen. Händer det inget är du inte tillräckligt nära.</p>
+                                <p>Vill du ha ett smakprov innan du går? Stopp 1-3 kan man uppleva var som helst, de resterande 14 ser du bara på plats. Välkommen!</p> 
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="text-right">
+                            <a class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Tillbaka</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+	        </div>			
+			
+			
+    
+<!-- End of Help modal -->
+              
+               <div id="show-content-card" class="ui-card-wrap card-wrap custom-wrap">
+                        <div class="card">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <h3 id="show-content-heading" class=""></h3>
+                                    <p id="show-content-text">
+
+                                    </p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="card-action-btn pull-right">
+                                        <div id="skip-button" class="btn btn-flat waves-attach waves-button">Hoppa över</div>
+                                        <div id="show-content-button" class="btn btn-flat waves-attach waves-button">Visa stopp</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+
+                
+            <div aria-hidden="true" class="modal fade" id="back-modal" role="dialog" tabindex="-1">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+                        <div class="modal-heading">
+                            <h2 class="modal-title">Avsluta vandring</h2>
+                        </div>
+                        <div class="modal-inner">
+                            <p>Vill du avsluta vandringen?</p>
+                            <div id="card-content">
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="text-right"><a href="index.html" id="back-modal-confirm" class="btn btn-flat btn-brand waves-attach waves-button">Ja</a>
+                            <a class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Nej</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+	        </div>
+            
+
+            <div id="stop-content" style="display:none" class="flex column">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    
+                    </div>
+                  
+                    <div class="swiper-pagination swiper-pagination"></div>
+
+                   
+                    <div class="swiper-button-prev  swiper-button-white">
+                        <!--<img src="img/left-arrow.png" alt="Previous">-->
+                    </div>
+                    <div class="swiper-button-next  swiper-button-white">
+                        <!--<img src="img/right-arrow.png" alt="Next">-->
+                    </div>
+                </div>
+                <div id="play-container">
+
+                </div>
+                <div id="stop-text">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+
+  
+            </div>
+        </main>
+        
+
+                <script type="text/javascript" src="js/Swiper/dist/js/swiper.jquery.min.js"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+        
+        
+        <script src="js/base.min.js"></script>
+        <!-- js for doc -->
+        <script src="js/project.min.js"></script> 
+    </body>
+</html>

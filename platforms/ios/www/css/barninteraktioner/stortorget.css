@@ -1,0 +1,105 @@
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    background-image: url(../../assets/interaktioner/img/stortorget/torget_dragkedja.png);
+    background-position: bottom;
+    background-size: 100% 100%;
+    margin: 0 !important;
+}
+
+.dropzone-wrapper {
+    
+    background-repeat: repeat-x;
+    
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#row1{
+    margin-bottom: 10px;
+}
+
+.dropzone-row{
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dropzone {
+    overflow: hidden;
+    height: 200px;
+    width: 80px;
+    
+}
+
+.dropzone.-drop-possible { border-color: #666; }
+
+.dropzone.-drop-over {
+
+} 
+
+.drag-wrapper{
+    width:100%;
+    position: absolute;
+    bottom: 40px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+}
+
+.draggable {
+    position: relative;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+
+    -ms-touch-action: none;
+        touch-action: none;
+}
+.org-pos-wrapper{
+    width:100%;
+    position: absolute;
+    bottom: 40px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+}
+
+.org-pos{
+    width: 80px;
+    height: 80px;
+    background-color:#666;
+}
+
+.draggable.-drop-possible {  }
+@media screen and (max-width: 321px){
+    .draggable {
+        width: 70px;
+        height: 70px;
+    }
+    .drag-wrapper{
+        bottom: 15px;
+    }
+    
+    .org-pos{
+    width: 70px;
+    height: 70px;
+    }
+    .org-pos-wrapper{
+        bottom: 15px;
+    }
+    
+}

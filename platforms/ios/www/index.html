@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html style="background:none !important;">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+
+
+
+        <!-- css -->
+	   <link href="css/base.css" rel="stylesheet">
+	    <!-- css for doc -->
+	    <link href="css/project.min.css" rel="stylesheet">
+
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <!-- jQuery Mobile -->
+        <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+
+
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Gävle Stadsvandringar</title>
+    </head>
+    <body class="page-brand" style="background-color: rgb(0,0,0,0.5) !important; background-image: url(img/bakgrundmeny.jpg) !important; background-size: cover !important;">
+
+	<!-- Main Sponsors Page -->
+            <div id="download-sponsor-page" class="overlay">
+				<div class="card-wrap">
+						<div class="col-lg-4 ">
+							<div class="card">
+								<div class="card-main">
+								    <div class="card-header">
+                                        <div class="card-inner">
+								            <p class="card-heading">Huvudsponsorer</p>
+								        </div>
+                                    </div>
+									<div class="card-inner">
+                                        <div id="download-sponsor-logos">
+                                            <div class="row">
+                                                <div class="margin flex column">
+                                                    <img src="img/hig.png" alt="Högskolan i Gävle"  class="sponsor-image">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="margin flex column">
+                                                    <img src="img/fastigheter.png" alt="Gavle Fastigheter"  class="sponsor-image">
+                                                </div>
+                                            </div>
+                                           <div class="row margin">
+                                                <div class="flex column">
+                                                    <img src="img/hariett.png" alt="" class="sponsor-image hariett">
+                                                </div>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="card-action">
+									    <div class="el-loading" id="load-indicator">
+									        <div class="el-loading-indicator">
+									             <div class="progress progress-position-absolute-top">
+                                                    <div class="progress-bar-indeterminate"></div>
+                                                </div>
+									        </div>
+										    <div class="card-action-btn pull-right">
+                                                <a href="#" id="sponsor-back" class="btn btn-flat waves-attach waves-button">Tillbaka</a>
+
+								                <a id="sponsor-to-map" href="#"  class="btn btn-flat waves-attach waves-button">Gå vandring</a>
+								            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                  <div id="download-progress" class="col-lg-4 ">
+
+                </div>
+            </div>
+
+
+            </div>
+
+            <!-- End of Main Sponsors Page -->
+
+
+
+	        <!-- Other Sponsors Page -->
+            <div id="post-hike-page" class="overlay">
+				<div class="card-wrap">
+						<div class="col-lg-4 ">
+							<div class="card">
+								<div class="card-main">
+								    <div class="card-header">
+                                        <div class="card-inner">
+								            <p class="card-heading">Övriga Sponsorer</p>
+								        </div>
+                                    </div>
+									<div class="card-inner">
+                                        <div id="post-sponsor-logos">
+                                           <div class="row">
+                                            <div class="col-xx-6 margin flex column">
+                                                <p>Clarion Hotel Winn</p>
+                                            </div>
+                                            <div class="col-xx-6 margin flex column">
+                                                <p>Scandic CH</p>
+                                            </div>
+                                            </div>
+                                            <div class="row">
+                                            <div class="col-xx-6 margin flex column">
+                                                <p>Elite Grand Hotel</p>
+                                            </div>
+                                            <div class="col-xx-6 margin flex column">
+                                                <p>Gallerian Nian</p>
+                                            </div>
+                                            </div>
+                                            <div class="row">
+                                            <div class="col-xx-6 margin flex column">
+                                                <p>Sveriges Fängelsemuseum</p>
+                                            </div>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="card-action">
+										    <div class="card-action-btn pull-right">
+                                                <a href="#" id="post-hike-back" class="btn btn-flat waves-attach waves-button">Fortsätt</a>
+								            </div>
+									</div>
+								</div>
+							</div>
+						</div>
+            </div>
+            </div>
+
+            <!-- End of Sponsor Page -->
+
+
+	        <!-- Credits Page -->
+            <div id="credits-page" class="overlay">
+				<div id="credits-wrap" class="card-wrap">
+						<div class="col-lg-4 ">
+							<div class="card">
+								<div class="card-main">
+								    <div class="card-header">
+                                        <div class="card-inner">
+                                           <p class="card-heading">Sponsorer</p>
+                                        </div>
+                                    </div>
+									<div class="card-inner">
+                                        <div id="credits-sponsor-logos">
+                                           <div class="row bottom-margin">
+                                                <div class="flex column">
+                                                    <img src="img/hariett.png" alt="" class="sponsor-image hariett">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/hig.png" alt="Högskolan i Gävle"  class="sponsor-image">
+                                                </div>
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/fastigheter.png" alt="Gavle Fastigheter"  class="sponsor-image">
+                                                </div>
+                                            </div>
+                                               <div class="row">
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/nian.png" alt="Galleri Nian"  class="sponsor-image-small">
+                                                </div>
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/elite.png" alt="Elite Hotel"  class="sponsor-image-small">
+                                                </div>
+                                            </div>
+                                               <div class="row">
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/cl.png" alt="CL"  class="sponsor-image-small">
+                                                </div>
+                                                <div class="col-xx-6 margin flex column">
+                                                    <img src="img/fangelse.png" alt="Sveriges Fängelsemuseum"  class="sponsor-image-small">
+
+                                                </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xx-6 margin flex column">
+                                                        <img src="img/scandic.png" alt="Scandic CH"  class="sponsor-image-scandic">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+									<div class="card-action">
+										    <div class="card-action-btn pull-right">
+                                                <a href="#" id="credits-back" class="btn btn-flat waves-attach waves-button">Tillbaka</a>
+								            </div>
+									</div>
+								</div>
+							</div>
+						</div>
+            </div>
+            </div>
+
+            <!-- End of Credits Page -->
+
+
+
+	<!-- Main -->
+
+
+	<main class="content">
+
+	<div id="header">
+			<div class="container">
+				<img id="header-logo" src="img/gavle_city_logo.png" alt="">
+			</div>
+		</div>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-6">
+        <section class="content-inner">
+				<div class="card-wrap">
+							<div class="card card-custom">
+								<div class="card-main">
+									<div class="card-inner">
+										<p class="card-heading">Historisk Vandring</p>
+										<p>”Sommaren 1869 gick Gävle, bokstavligt talat, upp i rök...” Så börjar vår historiska vandring om vår vackra och intressanta stad. Vandringen innehåller berättelser om platser, människor och händelser skrivna av Ulf-Ivar Nilsson och berättade av Camilla Nilsson Jern.</p>
+									</div>
+									<div class="card-action">
+										<div class="card-action-btn pull-right">
+                      <a href="#delete-modal" id="delete-historisk" class="delete-button btn btn-flat waves-attach waves-button" data-toggle="modal">Ta bort</a>
+											<a href="#" id="historisk" class="btn btn-flat waves-attach waves-button" data-toggle="modal">Gå vandring</a>
+										</div>
+									</div>
+								</div>
+							</div>
+           </div>
+           </section>
+            </div>
+            </div>
+                    <div class="row">
+        <div class="col-lg-6">
+        <section class="content-inner">
+				<div class="card-wrap">
+							<div class="card card-custom">
+								<div class="card-main">
+									<div class="card-inner">
+										<p class="card-heading">Barnvandring</p>
+										<p>Hjälp den förtrollade Bocka att bli en flicka igen, och jaga bort det elaka trollet från stan. Den interaktiva berättelsen börjar på Stortorget, och är en utmaning för barn 5-8 år tillsammans med en vuxen.</p>
+									</div>
+									<div class="card-action">
+										<div class="card-action-btn pull-right">
+                        <a href="#delete-modal" id="delete-barn" class="delete-button btn btn-flat waves-attach waves-button" data-toggle="modal">Ta bort</a>
+										    <a href="#" id="barn" class="btn btn-flat waves-attach waves-button" data-toggle="modal">Gå vandring</a>
+										</div>
+									</div>
+								</div>
+							</div>
+           </div>
+           </section>
+            </div>
+            </div>
+        </div>
+        </main>
+	<footer class="footer">
+		<div class="container">
+			<div id="credits-button" class="btn btn-flat waves-attach waves-button">SPONSORER</div>
+		</div>
+	</footer>
+
+    <!-- Hidden -->
+
+	<div aria-hidden="true" class="modal fade" id="delete-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-xs">
+			<div class="modal-content">
+				<div class="modal-heading">
+					<h2 class="modal-title">Ta bort vandring</h2>
+				</div>
+				<div class="modal-inner">
+					<p>Vill du ta bort vandringen?</p>
+				</div>
+				<div class="modal-footer">
+                    <p class="text-right">
+                        <a id="delete-assets" class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Ja</a>
+                        <a class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Nej</a>
+                    </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div aria-hidden="true" class="modal fade" id="download" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-xs">
+			<div class="modal-content">
+				<div class="modal-heading">
+					<h2 class="modal-title">Ladda ned vandring</h2>
+				</div>
+				<div class="modal-inner">
+					<p>Vill du ladda ned vandringen nu?</p>
+					<div id="card-content">
+
+
+					</div>
+
+				</div>
+				<div class="modal-footer">
+					<p class="text-right"><a class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Ja</a>
+					<a class="btn btn-flat btn-brand waves-attach waves-button" data-dismiss="modal">Nej</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/base.min.js"></script>
+
+	<!-- js for doc -->
+	<script src="js/project.min.js"></script>
+
+
+
+    </body>
+</html>

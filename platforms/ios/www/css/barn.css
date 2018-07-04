@@ -1,0 +1,206 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+* { outline: 0px solid lime; }
+
+/* Article Styles */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+    background-color: rgb(0,0,0,0);
+    font-family:roboto,'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    width:100vw;
+}
+
+.overlay{
+    background-color: #693065;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:100%;
+    z-index:1000;
+    display: none;
+    
+}
+
+.header {
+    padding-top: 24px;
+}
+
+
+
+/*
+main{
+    min-height: -webkit-calc(100% - 72px);
+    min-height: calc(100% - 72px);
+} */
+
+#start-interaction{
+    background-color: rgb(205, 0, 123);
+    color: white;
+    margin-bottom: 25px;
+}
+
+#cleared-interaction{
+    display: none;
+    background-color: rgb(205, 0, 123);
+    color: white;
+    margin-bottom: 25px;
+}
+
+.interaction{
+    min-height: -webkit-calc(100vh - 68px);
+    min-height: calc(100vh - 68px);
+    width: 100%;
+    background-color: white;
+}
+
+.margin{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.full-width{width: 100vw;}
+
+
+.flex{
+    display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+    display: -moz-box;      /* OLD: Firefox (buggy) */
+    display: -ms-flexbox;   /* MID: IE 10 */
+    display: -webkit-flex;  /* NEW, Chrome 21?28, Safari 6.1+ */
+    display: flex;
+}
+
+
+.column{    
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+    
+    -moz-flex-direction: column;
+    -moz-align-items: center;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.justify-center{
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    
+}
+
+.space-between{
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;    
+}
+
+#map_canvas{
+    width:100vw;
+    /* Device height minus header height */
+    min-height: -webkit-calc(100vh - 68px);
+    min-height: calc(100vh - 68px);
+}
+
+#play-container{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#play-button{
+    background-color: #3f51b5;
+    padding: 8px;
+    display: inline-block;
+}
+
+#show-content-card{
+    display: none;
+    
+}
+
+
+#stop-content{
+/*    height: -webkit-calc(100vh - 68px);
+    height: calc(100vh - 68px); */
+    background-color: white;
+}
+
+#stop-text{
+    width: 300px;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+    background-color: #222;
+}
+
+.swiper-pagination-bullet {
+    background: rgb(F,F,F);
+}
+
+
+.assets{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+#post-hike-page > div {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+
+.sponsor-image-small{
+    height: 40px;
+}
+
+.sponsor-image-scandic{
+    height: 20px;
+}
+
+
+/* Regular Tablets from 480 to 800px to include Galaxy tablets */
+@media screen and (min-width: 481px) {
+
+    #stop-text{
+        width: 400px;
+    }
+    #play-container{
+        width: 400px;
+    }
+}
+
+    
+}
+
+@media screen and (min-width: 701px) {
+    #stop-text{
+        width: 600px;
+    }    
+    #play-container{
+        width: 600px;
+    }    
+
+}
+
+
+

@@ -1,0 +1,36 @@
+.content{
+    background-image: url(../../assets/interaktioner/img/trollet/bockplatsen.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.slider-container{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    margin-bottom: 25px;
+    width:100%;
+}
+
+#slide-content{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+/* The #slider is actually just an numeric input. Don't want to show that do we? */
+#slider{
+display: none;
+}
+
+#troll-container{
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+}
+
+#troll{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}

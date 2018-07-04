@@ -1,0 +1,215 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+* { outline: 0px solid lime; }
+
+/* Article Styles */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:roboto,'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:14px;
+    /* min-height: 100vh; */
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.card-wrap{
+    margin-top: 12px !important;
+    margin-bottom: -12px !important;
+}
+
+.footer{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.15);
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.overlay{
+    background-color: #693065;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:100%;
+    z-index:1000;
+    display: none;
+    
+}
+
+main{
+    margin-bottom: 30px;
+}
+
+.sponsor-image.hariett{
+    width: 150px;
+}
+
+.content-inner{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.sponsor-image{
+    width: 110px;
+}
+
+.sponsor-image-small{
+    height: 40px;
+}
+.sponsor-image-scandic{
+    height: 20px;
+}
+
+#credits-wrap{
+    margin-top: 50px;
+}
+
+#header-logo{
+    max-width: 100%;
+}
+
+#sponsorer-button{
+    color: white;
+}
+
+#download-sponsor-page > div {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#credits-page > div {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#post-hike-page > div {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+
+#header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content{
+    margin-top: 40px;
+}
+
+.content-heading{
+    margin: 0;
+}
+
+.bottom-margin{
+     margin-bottom: 20px;   
+}
+
+.header{padding-top: 20px;}
+
+.full-width{width: 100vw;}
+
+.padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margin{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.flex{
+    display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+    display: -moz-box;      /* OLD: Firefox (buggy) */
+    display: -ms-flexbox;   /* MID: IE 10 */
+    display: -webkit-flex;  /* NEW, Chrome 21?28, Safari 6.1+ */
+    display: flex;
+}
+
+
+.column{
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+    
+    -moz-flex-direction: column;
+    -moz-align-items: center;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 701px) {
+
+    #download-sponsor-page > div {
+
+    margin-top: 60px;
+    }
+
+    #credits-page > div {
+
+        margin-top: 60px;
+    }
+
+    #post-hike-page > div {
+
+        margin-top: 60px;
+    }
+
+}
+@media screen and (min-height: 570px) {
+    
+main{
+    margin-bottom: 25px;
+}
+
+}
+
+@media screen and (min-height: 700px) {
+
+    
+main{
+    margin-bottom: 25px;
+}
+
+}
+
+/*
+@media screen and (max-height: 500px) {
+    .card-inner{
+        margin: 0px 16px 5px !important;
+    }
+    .card-heading{
+        margin-top: 8px !important;
+        font-size: 16px !important;
+        line-height: 16px !important;
+        margin-bottom: 8px !important;
+    }
+    .card-action{
+        min-height: 0px !important;
+    }
+    .card-action-btn{
+        margin: 0px 8px !important;
+    }
+} */
+
+
+
+

@@ -1,0 +1,44 @@
+body {
+    background-image:url(../../assets/interaktioner/img/getmannen/klocka.jpg);
+    background-position: center center; /* First value is from left and second is from top. You can use use number as well*/
+    background-repeat:no-repeat;
+    
+}
+
+.clock-container{
+    position: relative;
+    width: 20em;
+    height: 20em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    //border: dashed 1px;
+    border-radius: 50%;
+    margin-top: calc(50vh - 16em);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.klockslag {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;    
+    margin: -25px;
+}
+
+.deg0 { transform: translate(10em); } /* 10em = half the width of the wrapper */
+.deg30 { transform: rotate(30deg) translate(10em) rotate(-30deg); }
+.deg60 { transform: rotate(60deg) translate(10em) rotate(-60deg); }
+.deg90 { transform: rotate(90deg) translate(10em) rotate(-90deg); }
+.deg120 { transform: rotate(120deg) translate(10em) rotate(-120deg); }
+.deg150 { transform: rotate(150deg) translate(10em) rotate(-150deg); }
+.deg180 { transform: rotate(180deg) translate(10em) rotate(-180deg); }
+.deg210 { transform: rotate(210deg) translate(10em) rotate(-210deg); }
+.deg240 { transform: rotate(240deg) translate(10em) rotate(-240deg); }
+.deg270 { transform: rotate(270deg) translate(10em) rotate(-270deg); }
+.deg300 { transform: rotate(300deg) translate(10em) rotate(-300deg); }
+.deg330 { transform: rotate(330deg) translate(10em) rotate(-330deg); }
+
